@@ -1,0 +1,4 @@
+thinkpad
+========
+
+thinkpad configuration
