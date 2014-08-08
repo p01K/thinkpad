@@ -1,0 +1,12 @@
+XTerm*locale: true 
+
+XTerm*savelines: 4096
+
+!XTerm*foreground: rgb:b2/b2/b2
+XTerm*foreground: rgb:00/ff/00
+XTerm*background: rgb:08/08/08
+XTerm*colour0:    rgb:28/28/28
+
+XTerm*faceName:   Dejavu Sans Mono:size=10:antialias=false
+
+XTerm*font: 	  7x13

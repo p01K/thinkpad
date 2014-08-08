@@ -1,0 +1,13 @@
+syntax on
+set number
+set showmatch
+set mouse=a
+set cursorline
+set hlsearch
+set ignorecase
+set wildmenu
+set wildmode=list:longest,full
+set foldenable
+set smarttab
+set nobackup
+set shiftwidth=4
