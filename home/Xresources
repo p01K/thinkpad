@@ -10,3 +10,5 @@ XTerm*colour0:    rgb:28/28/28
 XTerm*faceName:   Dejavu Sans Mono:size=10:antialias=false
 
 XTerm*font: 	  7x13
+
+XTerm*metaSendsEscape: true
