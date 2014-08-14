@@ -23,6 +23,7 @@ alias ls='ls --color=auto'
 alias ll='ls -l'
 alias la='ls -a'
 alias ls.rec='ls -R -l'
+alias grep='grep --colour -n'
 alias open='xdg-open'
 
 alias ..='cd ..'
@@ -32,10 +33,9 @@ alias ....='cd ../../..'
 
 
 ########### PACMAN SHORTCUTS ######################
-alias pacman='sudo pacman'
 alias pacman.refresh='sudo pacman -Sy' #update packet
 alias pacman.install='sudo pacman -S'
-alias pacman.search='sudo pacman -Ss'
+alias pacman.search='pacman -Ss'
 alias pacman.sys_ugd='sudo pacman -Syyu' #system upgrade
 alias pacman.rm='sudo pacman -R'
 alias pacman.rmr='sudo pacman -Rsn'  #also remove unused deps#
