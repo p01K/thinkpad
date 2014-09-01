@@ -31,7 +31,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 #++open chromium
 bindsym $mod+c      exec chromium
 #++lock screen
-bindsym $mod+F2     exec i3lock -c 000000
+bindsym $mod+F2     exec i3lock
 # kill focused window
 bindsym $mod+Shift+q kill
 
