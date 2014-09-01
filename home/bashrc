@@ -25,6 +25,8 @@ alias la='ls -a'
 alias ls.rec='ls -R -l'
 alias grep='grep --colour -n'
 alias open='xdg-open'
+alias i3lock='i3lock --color 000000'
+
 
 alias ..='cd ..'
 alias ...='cd ../..'
@@ -39,7 +41,7 @@ alias pacman.search='pacman -Ss'
 alias pacman.sys_ugd='sudo pacman -Syyu' #system upgrade
 alias pacman.rm='sudo pacman -R'
 alias pacman.rmr='sudo pacman -Rsn'  #also remove unused deps#
-alias pacman.dis='sudo pacman -Si'   #display extensive info
+alias pacman.dis='pacman -Si'   #display extensive info
 alias pacman.orphan='sudo pacman -Qdt' #
 alias pacman.cc='sudo pacman -Scc' #clean caches
 ########### /PACMAN SHORTCUTS #####################
@@ -51,6 +53,7 @@ alias netstat.open_tcp='netstat -ltnep' #deprecated....
 alias dmesg='dmesg -L' #add colours to the dmesg output
 alias ss.tcp_l='ss -rplt'
 alias iw.conn="sudo iw dev $WLAN connect"
+alias iw.scan="sudo iw den $WLAN scan"
 #############/System shortcuts#################
 
 
