@@ -49,13 +49,17 @@ alias pacman.cc='sudo pacman -Scc' #clean caches
 
 
 ############ System shortcuts###################
-alias netstat.open_tcp='netstat -ltnep' #deprecated....
 alias dmesg='dmesg -L' #add colours to the dmesg output
-alias ss.tcp_l='ss -rplt'
-alias iw.conn="sudo iw dev $WLAN connect"
-alias iw.scan="sudo iw den $WLAN scan"
+
 #############/System shortcuts#################
 
+############ Network Shortcuts ##################
+alias ss.tcp_l='ss -rplt'
+alias iw.conn="sudo iw dev $WLAN connect"
+alias iw.scan="sudo iw dev $WLAN scan"
+alias ip.wup="sudo ip link set $WLAN up"
+
+########### /Network Shortcuts #################
 
 ############tar utils###########################
 alias tar.e_bz2='tar xjf'
