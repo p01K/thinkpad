@@ -72,7 +72,16 @@ kate.noerr(){
   kate "$@" 2> /dev/null &	
 }
 
-
+man(){
+    env LESS_TERMCAP_mb=$'\e[0;31m' \
+    LESS_TERMCAP_md=$'\e[01;38;5;74m' \
+    LESS_TERMCAP_me=$'\e[0m' \
+    LESS_TERMCAP_sb=$'\e[0m' \
+    LESS_TERMCAP_so=$'\e[38;5;246m' \
+    LESS_TERMCAP_ue=$'\e[0m' \
+    LESS_TERMCAP_us=$'\e[04;38;5;146m' \
+    man "$@"
+}
 config_PS(){
 
 #Normal
@@ -111,9 +120,9 @@ local hostname='\h'
 local time24='\A'
 #PS1='\e[0;37m\u@\[\e[0;37m\h\[\e[4;37m\w\[\e[m\]\$\$'
 
-PS1="${Cyan}<<${time24}>>${White}${username}${Green}@${White}${hostname}${UWhite}\w\[\e[m\]\\$\\$"
+#PS1="${Cyan}<<${time24}>>${White}${username}${Green}@${White}${hostname}${UWhite}\w\[\e[m\]\\$\\$"
 
-
+PS1=' '
 PS2='> '
 
 }

@@ -36,3 +36,4 @@ cmake
 gdb 
 strace 
 ltrace
+openvpn
