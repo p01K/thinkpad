@@ -9,8 +9,9 @@
 ###############exports#########################
 
 export EDITOR='vim'
+export MAIL="$HOME/docs/mail"
 export XAUTHORITY=/home/$USER/.Xauthority
-
+export MAIL=~/docs/mail
 export WLAN='wlp3s0' #wireless interface
 export ETH='enp0s25' #ethernet interface
 
@@ -50,7 +51,9 @@ alias pacman.cc='sudo pacman -Scc' #clean caches
 
 ############ System shortcuts###################
 alias dmesg='dmesg -L' #add colours to the dmesg output
-
+alias netctl='sudo netctl'
+alias smctl='sudo systemctl' 
+#alias ssctl='sudo sysctl'
 #############/System shortcuts#################
 
 ############ Network Shortcuts ##################
@@ -70,6 +73,10 @@ alias tar.e_tar.gz='tar -zxvf'
 
 kate.noerr(){
   kate "$@" 2> /dev/null &	
+}
+
+ssh.shark(){
+    ssh shark -t ssh $1
 }
 
 man(){

@@ -37,3 +37,13 @@ gdb
 strace 
 ltrace
 openvpn
+dnsutils
+wget
+xsensors
+zsh 
+zsh-syntax-highlighting
+ctags
+pptpclient
+openvpn
+mupdf
+
